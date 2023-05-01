@@ -1,0 +1,83 @@
+:root {
+  --primary: #2a7efa;
+  --primary-light: #d5e0ef;
+  --primary-dark:#86a8d9;
+  --gray: #dfdfdf;
+  --dark: #1e1e1e;
+}
+body {
+  background-color: var(--primary-light);
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: var(--dark);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  width: 300px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.qr-code-bg {
+  background-color: var(--primary);
+  padding: 6px;
+  border-radius: 8px;
+  min-height: 300px;
+}
+.qr-code {
+  width: 160px;
+  height: 160px;
+  transform: translate(42%, 42%);
+}
+.form-generate {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label{
+  text-align: center;
+  font-weight: 400;
+}
+input {
+  outline: none;
+  padding: 10px 15px;
+  border: solid thin var(--gray);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.url{
+  margin-top: 8px;
+}
+button {
+  background-color: var(--primary-dark);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top:6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button:hover{
+  background-color: var(--primary)
+}
+.link{
+  font-size: 14px;
+  color: var(--primary);
+  cursor: pointer;
+}
+.link:hover{
+  color: green;
+}
